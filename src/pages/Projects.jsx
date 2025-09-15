@@ -18,25 +18,25 @@ const Projects = () =>{
     const projectList =[
         {
             title:'Petagochi game',
-            img: '../src/assets/projects/Petagochi.png',
+            img: '/assets/projects/Petagochi.png',
             description: 'Petagochi is a virtual pet game where players take care of a small digital creature. You feed it, play with it, and make sure it stays healthy and happy. If you neglect it, the pet runs away.',
             link: 'https://petagotchi.vercel.app/'
         },
         {
             title:'Pastry qiuz',
-            img: '../src/assets/projects/Quiz.png',
+            img: '/assets/projects/Quiz.png',
             description: 'Pastry Quiz - A web-based quiz with different question types (true/false, multiple choice, checkbox) where users get results and feedback, and can switch between dark and light mode.',
             link: 'https://quiz-pastry.vercel.app/'
         },
         {
             title:'Recipe app',
-            img: '../src/assets/projects/Recipe_App.png',
+            img: '/assets/projects/Recipe_App.png',
             description: 'A Strapi-connected app where users can browse recipes and add new ones, with all data stored and managed directly in Strapi.',
             link: 'https://recipe-app-frontend-olive.vercel.app/'
         },
         {
             title:'Gym progress tracking app',
-            img: '../src/assets/projects/Training_App.png',
+            img: '/assets/projects/Training_App.png',
             description: 'Training Progress App - A simple app connected to Strapi CMS where exercises are managed, progress is tracked, and results are saved directly to Strapi.',
             important: 'UserName: Test, Password: TestTest',
             link: 'https://jetraining.vercel.app/'
