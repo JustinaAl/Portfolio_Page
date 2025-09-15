@@ -34,9 +34,8 @@ const About = () =>{
             websites.
             </p>
             <br />
-            <p>Utanför arbetet är jag en entusiastisk deltagare i escape rooms, vilket har utvecklat mina färdigheter 
-            i problemlösning, samarbete och att prestera under tidspress – egenskaper jag ser som användbara även i 
-            utvecklingsarbete.
+            <p>Outside of work, I am an enthusiastic escape room participant, which has helped me develop my problem-solving, 
+            teamwork, and ability to perform under pressure—qualities I also consider valuable in development work.
             </p>
 
             <div className="flex flex-wrap justify-center items-center gap-6 my-12 md:my-16">
@@ -44,11 +43,10 @@ const About = () =>{
             </div>
     
             <p>
-            Jag har också ett starkt intresse för att resa och lära mig nya saker. Att utforska världen och möta 
-            olika kulturer ger mig nya perspektiv, stärker min förmåga att anpassa mig till olika. Genom att prova 
-            nya smaker, upptäcka traditioner och leva ett aktivt liv håller jag mig nyfiken och öppen för 
-            förändring, vilket i sin tur inspirerar mig i mitt arbete och bidrar till min personliga och 
-            professionella utveckling.
+            I also have a strong interest in traveling and learning new things. Exploring the world and experiencing 
+            different cultures gives me new perspectives and strengthens my ability to adapt to different situations. 
+            By trying new flavors, discovering traditions, and living an active life, I stay curious and open to change, 
+            which in turn inspires me in my work and contributes to both my personal and professional development.
             </p>
 
             <ClickableCarousel list={travelList}/>
