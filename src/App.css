@@ -1,0 +1,51 @@
+nav {
+  --color: rgb(248 113 113);
+
+  position: relative;
+
+}
+
+/* vertical */
+nav::before,
+nav::after {
+  content: "";
+  position: absolute;
+  background: var(--color);
+}
+
+/* vertical line */
+nav::before {
+  left: 98%;
+  top: 0;
+  width: 2px;
+  height: 150%;
+  transform: translateX(-50%);
+}
+
+/* horizontal line */
+nav::after {
+  top: 120%;
+  right: 0%;
+  height: 2px;
+  width: 102%;
+  transform: translateY(-50%);
+}
+
+@media (min-width: 810px) {
+  nav::after {
+    width: 110%;
+  }
+}
+
+@media (min-width: 900px) {
+  nav::after {
+    width: 120%;
+  }
+}
+
+@media (min-width: 1000px) {
+  nav::after {
+    width: 110%;
+  }
+}
+
