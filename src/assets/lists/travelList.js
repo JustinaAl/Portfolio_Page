@@ -8,6 +8,6 @@ export const travelList = [
         '/assets/keliones_Sq/DSC05338.jpg',
 
         '/assets/keliones_Sq/mafor.jpg',
-        '/assets/keliones_Sq/IMG_2769.jpg',
+        '/assets/keliones_Sq/IMG_2769.webp',
         '/assets/keliones_Sq/DSC02419.jpg',
     ]
