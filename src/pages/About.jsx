@@ -7,9 +7,9 @@ import Carousel from "../components/PhotoCarusel";
 const About = () =>{
 
     const photos = [
-        "src/assets/escape/IMG_9240.jpg",
-        "src/assets/escape/151246.png",
-        "src/assets/escape/IMG_9230.jpg"
+        "/assets/escape/IMG_9240.jpg",
+        "/assets/escape/151246.png",
+        "/assets/escape/IMG_9230.jpg"
     ]
 
     return(

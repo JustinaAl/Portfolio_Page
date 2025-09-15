@@ -6,7 +6,7 @@ const Home = () =>{
 
     return(
         <div className="flex flex-col md:flex-row-reverse p-8 space-x-4 md:space-x-8 flex-1 items-start md:mt-36">
-            <img className="w-[80%] max-w-[400px] md:w-[40%] md:max-w-[800px] h-fit m-auto mt-4 mb-4" src="/assets/Group_2.png" alt="Justina's photo" />
+            <img className="w-[80%] max-w-[400px] md:w-[40%] md:max-w-[800px] h-fit m-auto mt-4 mb-4" src="/assets/Group_2.webp" alt="Justina's photo" />
             <div className="flex flex-col space-y-8 md:space-y-16 pr-6 lg:mt-[5%]">
                 <div>
                     <p className="font-roboto font-200 italic font-w-condensed text-4xl lg:text-5xl">Hi, I'm Justina</p>
