@@ -1,0 +1,57 @@
+.outerslider {
+  height: fit-content;
+  max-height: 100px;
+  overflow: hidden;
+}
+
+.innerslider {
+  display: flex;
+  height: fit-content;
+  width: 2000%;
+  gap: 24px;
+  animation: scroll 100s linear infinite;
+  justify-content: flex-start;
+}
+
+.slide {
+  display: flex;
+  height: stretch;
+  align-items: center;
+}
+
+.slide img {
+  max-height: 40px;
+  max-width: 100px;
+  object-fit: contain;
+
+}
+
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(-2000px);
+  }
+}
+
+@media (min-width: 800px) {
+  .innerslider {
+    animation: scroll 75s linear infinite;
+  }
+
+  .slide img{
+    max-height: 60px;
+    max-width: 100px;
+  }
+
+  .innerslider{
+    gap: 30px;
+  }
+}
+
+
+
+/* j */
+
