@@ -40,6 +40,12 @@ const Projects = () =>{
             description: 'Training Progress App - A simple app connected to Strapi CMS where exercises are managed, progress is tracked, and results are saved directly to Strapi.',
             important: 'UserName: Test, Password: TestTest',
             link: 'https://jetraining.vercel.app/'
+        },
+        {
+            title:'Country app',
+            img: '/assets/projects/Country_App.png',
+            description: `An app where you can learn about countries and their flags, and take quiz to test your knowledge. App uses "https://restcountries.com/" API`,
+            link: 'https://country-learning-app.vercel.app/'
         }
     ]
 
